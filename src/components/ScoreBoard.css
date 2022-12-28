@@ -1,0 +1,30 @@
+.ScoreBoard{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 20rem;
+    background-color: #0dcaf0;
+    border: 2px solid black;
+    margin: 2rem auto;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: -10px 10px;
+
+ 
+    font-size: 2em;
+}
+.score{
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+.x-score{
+    color: black;
+    /* border-bottom:3px solid red; */
+    border-radius: 3px;
+}
+.o-score{
+    color: black;
+    /* border-bottom:3px solid greenyellow; */
+    border-radius: 3px;
+}
